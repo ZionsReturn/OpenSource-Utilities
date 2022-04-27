@@ -2,7 +2,7 @@
     Requirements:
     Create a RemoteEvent in ReplicatedStorage with the Name "GlobalAnnouncement"
     Then you can create a Custom Gui for the Announcement and put it in ReplicatedStorage
-    You need to enable Studio API Access in game settings for it to work, also it won't work when trying in studio because roblox blocked actually blocked that
+    You need to enable Studio API Access in game settings for it to work, also it won't work when trying in studio because roblox actually blocked that
     Last Updated: 04/27/22
     Cynica™
 --]]
