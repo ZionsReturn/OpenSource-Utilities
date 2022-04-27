@@ -55,7 +55,7 @@ game:GetService("Players").PlayerAdded:Connect(function(Player)
        else
            print("[Server]: " .. Player.Name .. " has no Weapons")
        end
-       print("[Server]: Loaded " .. Player.Name .. "'s Data)
+       print("[Server]: Loaded " .. Player.Name .. "'s Data")
     end
 end)
 game:GetService("Players").PlayerRemoving:Connect(function(Player) -- We will only save PlayerData when the Player leaves because we are limited to 4MB cache per Player
