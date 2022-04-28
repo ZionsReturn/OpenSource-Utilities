@@ -16,6 +16,11 @@ function SaveData(Player)
     local Money = Player.leaderstats.Money.Value
     MoneyData:SetAsync(Player.UserId .. "-Money", Money)
   end)
+  if not Success then
+    warn(Returned)
+   else
+    print("[Server]: Successfully saved " .. Player.Name .. "'s Data")
+  end
 end
 game:GetService("Players").PlayerAdded:Connect(function(Player)
   local leaderstats = Instance.new("Folder", Player)
